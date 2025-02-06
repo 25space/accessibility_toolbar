@@ -23,70 +23,19 @@ What's more, accessibility doesn't just benefit people with disabilities, as acc
 
 <h2>How to use Accessibility Toolbar</h2>
 
-	<h4>Option 1 - By 25Space.com</h4>
-	<a href="https://25space.com/business/accessibility/">Learn more about >><a></p>
-
-	<h4>Option 2 - Modified by 25Space.com</h4>
-	<a href="https://25space.com/business/accessibility/">Learn more about >><a></p>
+<h4>Option 1 - By 25Space.com</h4>
+<p>We take care of everything for you - find out more on our website.</p>
+<a href="https://25space.com/business/accessibility/">Learn more about >><a></p>
 
 
+<h4>Option 2 - Modified by 25Space.com</h4>
+<p>Access the open source code of our modified version</p>
+<a href="https://github.com/25space/accessibility_toolbar/tree/master/adjustments">Switch to this repo >><a></p>
+	
+<h4>Option 3 - Use original version</h4>
+<a href="https://github.com/mickidum/acc_toolbar">Original repo >><a></p>
 
-
-<p>Add this script to your website</p>
-
-
-
-
-
-
-
-
-<pre class="highlight">
-<code>
-&lt;script src=&quot;https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-// optional init
-  window.onload = function() {
-    window.micAccessTool = new MicAccessTool({
-      link: 'http://your-awesome-website.com/your-accessibility-declaration.pdf',
-      contact: 'mailto:your-mail@your-awesome-website.com',
-      buttonPosition: 'right', // default is 'left'
-      forceLang: 'ru-RU' // default is 'en' may be 'he-IL', 'ru-RU', or 'fr_FR'
-    });
-  }
-&lt;/script&gt;
-</code>
-</pre>
-
-<h4>Download</h4>
-
-<ol>
-	<li><a href="https://raw.githubusercontent.com/mickidum/acc_toolbar/master/acctoolbar/acctoolbar.min.js">Download(Right click and save)</a> <strong>Accessibility Toolbar Plugin</strong></li>
-	<li>Store this file in your website directory (i.e. /public_html)</li>
-	<li>
-		<p>Add script to website</p>
-<pre class="highlight">
-<code>
-&lt;script src=&quot;path/to/script/where/stored/acctoolbar.min.js&quot;&gt;&lt;/script&gt;
-// optional init
-&lt;script&gt;
-  window.onload = function() {
-    window.micAccessTool = new MicAccessTool({
-      link: 'http://your-awesome-website.com/your-accessibility-declaration.pdf',
-      contact: 'mailto:your-mail@your-awesome-website.com',
-      buttonPosition: 'right', // default is 'left'
-      forceLang: 'ru-RU' // default is 'en' may be 'he-IL', 'ru-RU', or 'fr_FR'
-    });
-  }
-&lt;/script&gt;
-</code>
-</pre>
-	</li>
-	<li>That's all</li>
-</ol>
-
-<h2>For Developers</h2>
-
+<h4>Option 4 - For developers</h4>
 <ol>
 	<li>Clone or download this <a href="{{ site.github.repository_url }}">repo</a></li>
 	<li>Install <strong>gulp.js</strong> - write in terminal <em>"npm install gulp -g"</em></li>
@@ -95,3 +44,6 @@ What's more, accessibility doesn't just benefit people with disabilities, as acc
 	<li>Write in terminal - <em>"gulp"</em> to run app</li>
 	<li>Now you can change it.</li>
 </ol>
+
+
+
