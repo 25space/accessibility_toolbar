@@ -8,6 +8,14 @@
 Accessibility Toolbar Plugin is a simple accessibility component without dependencies (clean javascript), including a variety of tools. This component allows users with disabilities easy and convenient way to browse most websites.
 </p>
 
+<h2>Website Accessibility Plugin</h2>
+<p>
+	We help you to make your website more accessible for people with disabilities - while also complying with legal requirements.<br>
+	25Space offers this plugin as a hosting solution including setup on your website.<br>
+	<a href="https://25space.com/business/accessibility/">Learn more about >><a>
+</p>
+
+
 <h2>Language Support</h2>
 <p>
 	Accessibility Toolbar Plugin may work with as many languages as you need. For now, it supports out of the box English by default, Hebrew, Russian, and French. The plugin tries to detect current language in page by schema like "ru-RU", "he-IL", "fr_FR" (Wordpress like CMS locales). If your website uses these locale schemas you need do nothing, otherwise, you probably can force locale by adding property "forcelang" to additional init (see below). You always can edit app/js/language.json file for adding or change language strings(see "For Developers" section below).
