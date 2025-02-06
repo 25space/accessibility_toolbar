@@ -16,6 +16,22 @@ Accessibility Toolbar Plugin is a simple accessibility component without depende
 </p>
 
 
+<h2>About accessibility</h2>
+<p>Accessible websites are websites that can be used by all users without restrictions (barrier-free), regardless of their limitations or technical capabilities.
+The accessibility of websites is still not a matter of course: according to a <a href="https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website/test-barrierefreie-webshops" target="_blank">study by Google and "Aktion Mensch" (DE)</a>, for example, two thirds of large German online shops 
+are not accessible. Barriers on the internet prevent a website from being accessible to everyone. Only through digital accessibility can all people use a website without restrictions.<br>
+An accessible website is worthwhile for all companies, because: According to the Federal Statistical Office, 7.8 million people in Germany live with a recognised severe disability (as of the end of 2021). If you make your website accessible, you will also reach more potential customers. 
+What's more, accessibility doesn't just benefit people with disabilities, as accessibility makes websites easier to use and therefore more satisfying for all users.<br></p>
+
+<h2>About the legal regulations</h2>
+<p>From 28 June 2025, most B2C websites, services and products must be accessible as part of the Accessibility Reinforcement Act, Barrierefreiheitsstärkungsgesetz (BFSG).
+<a target="_blank" href="https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/barrierefreiheitsstaerkungsgesetz/barrierefreiheitsstaerkungsgesetz-node.html">More on bund.de (DE)</a><br></p>
+
+
+
+
+
+
 <h2>Language Support</h2>
 <p>
 	Accessibility Toolbar Plugin may work with as many languages as you need. For now, it supports out of the box English by default, Hebrew, Russian, and French. The plugin tries to detect current language in page by schema like "ru-RU", "he-IL", "fr_FR" (Wordpress like CMS locales). If your website uses these locale schemas you need do nothing, otherwise, you probably can force locale by adding property "forcelang" to additional init (see below). You always can edit app/js/language.json file for adding or change language strings(see "For Developers" section below).
